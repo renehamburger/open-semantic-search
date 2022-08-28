@@ -36,7 +36,7 @@ How to setup a search engine on an intranet server running on an existing Debian
 2. Get admin or super user (root)
 `su`
 3. Install the packages:
-`dpkg --install open-semantic-search-server*.deb`
+`dpkg --install open-semantic-search_*.deb`
 4. Install the dependencies:
 `apt-get -f install`
 
@@ -46,7 +46,7 @@ How to setup a search engine on an intranet server running on an existing Debian
 
 1. [Download](../../../../download) the packages and modules you want to use
 2. Install the package and its dependencies:
-`sudo apt install ./open-semantic-search-server*.deb`
+`sudo apt-get update && sudo apt install ./open-semantic-search_*.deb`
 3. After installation stops continue by type in a `q` to end showing a status message of Solr installation script
 
 
